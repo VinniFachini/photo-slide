@@ -1,4 +1,5 @@
-import {SlideNav} from './slide.js';
+// eslint-disable-next-line import/extensions
+import { SlideNav } from './slide.js';
 
 const slide = new SlideNav('.slide', '.wrapper');
 
