@@ -13,15 +13,27 @@ img{
 
 .wrapper {
     margin-top: 35px;
-    overflow: hidden;
 }
 
 .slide{
     display: flex;
 }
+.slide:hover{
+    will-change: transform;
+}
 .slide li{
     flex-shrink: 0;
+    box-shadow: 0, 2px, 4px rgba(0, 0, 0, 0.4);
     width: 80vw;
-    max-width: 800px;
     margin: 0 20px;
+    max-width: 800px;
+    border-radius: 4px;
+    overflow: hidden;
+    opacity: .8;
+    transform: scale(0.9);
+    transition: all .3s ease;
+}
+.slide li.active {
+    opacity: 1;
+    transform: scale(1);
 }
