@@ -36,4 +36,29 @@ img{
 .slide li.active {
     opacity: 1;
     transform: scale(1);
+    z-index: 300;
+}
+[data-control="slide"] {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+[data-control="slide"] li a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ffbb55;
+    border-radius: 50%;
+    overflow: hidden;
+    text-indent: -300px;
+    cursor: pointer;
+    transition: ease 100ms all;
+    margin: 4px;
+}
+[data-control="slide"] li a:hover{
+    border: 5px solid #ee5544;
+}
+[data-control="slide"] li.active a {
+    background: #ee5544;
+    border: 5px solid #ffbb55;
 }
