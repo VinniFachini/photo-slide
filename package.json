@@ -1,0 +1,22 @@
+{
+  "name": "slide",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinniFachini/photo-slide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinniFachini/photo-slide/issues"
+  },
+  "homepage": "https://github.com/VinniFachini/photo-slide#readme",
+  "devDependencies": {
+    "eslint": "^7.14.0"
+  }
+}
