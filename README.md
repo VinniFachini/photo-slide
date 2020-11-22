@@ -1,1 +1,1 @@
-# Photo Slide Plug-in made with JavaScript ES6 #
+## Photo Slide Plug-in made with JavaScript ES6 ##
