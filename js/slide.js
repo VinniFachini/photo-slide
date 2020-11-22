@@ -49,7 +49,7 @@ export default class Slide {
 		this.onMove = this.onMove.bind(this);
 		this.onEnd = this.onEnd.bind(this);
 	}
-
+	
 	init(){
 		this.bindEvents();
 		this.addSlideEvents();
